@@ -64,6 +64,7 @@ struct MapScreen: View {
                 Spacer()
                 
                 // Logout button
+                
                 Button(action: {
                     showConfirmationDialog.toggle()
                 }) {
